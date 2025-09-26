@@ -1,13 +1,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --primary: #faf3e0;
+  --secondary: #d6cfc7;
+  --accent: #f28482;
 }
 
 html,
@@ -22,6 +18,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0;
 }
 
 * {
@@ -30,8 +27,128 @@ body {
   margin: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+section {
+  padding: 4rem 2rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary);
+  margin: 0.5rem;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* full screen height */
+  width: 100%;
+  gap: 2rem;
+  text-align: center;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+/* Achievements row */
+.hero-achievements {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Skills row */
+.hero-skills {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Buttons row */
+.hero-buttons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+/* Projects grid base */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+
+/* responsive for desktop & tablet */
+
+@media (max-width: 1200px) {
+  .flex-row {
+    flex-direction: column;
+    align-items: center;
   }
+
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero {
+    flex-direction: column;
+  }
+}
+
+/* responsive for mobile */
+
+@media (max-width: 600px) {
+  section {
+    padding: 2rem 1rem;
+  }
+
+  header {
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+
+  .hero {
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+
+  .hero-achievements,
+  .hero-buttons.hero-skills {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flex-row {
+    flex-direction: column;
+    gap: 1.2rem;
+
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
 }
