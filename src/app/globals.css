@@ -1,9 +1,9 @@
 :root {
-  --background: #ffffff;
+  --background: #fff;
   --foreground: #171717;
-  --primary: #fafaf9;
-  --secondary: #d6d3d1;
-  --accent: #dc2626;
+  --primary: #f7f8fa;
+  --secondary: #e0e4ea;
+  --accent: #5c74ff;
 }
 
 html,
@@ -15,7 +15,7 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  background-image: linear-gradient(to right, #a0cef5, #8ebffb, #89adff, #9299fd, #a580f3);
+  background-color: var(--primary);
 }
 
 * {
@@ -26,7 +26,7 @@ body {
 
 section {
   padding: 2rem 2rem;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid rgba(224, 228, 234, 0.5);
 }
 
 .container {

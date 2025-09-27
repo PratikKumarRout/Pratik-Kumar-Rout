@@ -15,26 +15,26 @@ export default function Hero() {
         justifyContent: "space-between",
       }}>
         {/* Intro placeholders */}
-        <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", padding: "2rem" }}>
+        <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-around", alignItems: "center" }}>
           <div>
             <div>
-              <PlaceholderBox width="700px" height="70px" shade="#333" />
-              <PlaceholderBox width="300px" height="50px" shade="#666" />
-              <PlaceholderBox width="200px" height="40px" shade="#999" />
+              <PlaceholderBox width="700px" height="70px" shade="#e0e4ea" />
+              <PlaceholderBox width="300px" height="50px" shade="#e0e4ea" />
+              <PlaceholderBox width="200px" height="40px" shade="#e0e4ea" />
             </div>
           </div>
 
           <div className="hero-skills">
-            <PlaceholderCircle size="80px" shade="#999" />
-            <PlaceholderCircle size="80px" shade="#777" />
-            <PlaceholderCircle size="80px" shade="#555" />
-            <PlaceholderCircle size="80px" shade="#333" />
+            <PlaceholderCircle size="80px" shade="#e0e4ea" />
+            <PlaceholderCircle size="80px" shade="#e0e4ea" />
+            <PlaceholderCircle size="80px" shade="#e0e4ea" />
+            <PlaceholderCircle size="80px" shade="#e0e4ea" />
           </div>
 
           {/* Buttons row */}
           <div className="hero-buttons">
-            <PlaceholderBox width="150px" height="45px" shade="#222" />
-            <PlaceholderBox width="150px" height="45px" shade="#444" />
+            <PlaceholderBox width="150px" height="45px" shade="#5c74ff" />
+            <PlaceholderBox width="150px" height="45px" shade="#5c74ff" />
           </div>
         </div>
 

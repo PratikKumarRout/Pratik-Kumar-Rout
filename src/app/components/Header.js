@@ -8,15 +8,15 @@ export default function Header() {
                 display: "flex",
                 alignItems: "center",
             }}>
-                <PlaceholderCircle size="2.5rem" shade="#fff" />
-                <PlaceholderBox width="300px" height="30px" shade="#fff" /> </div>
+                <PlaceholderCircle size="2.5rem" shade="var(--secondary)" />
+                <PlaceholderBox width="300px" height="30px" shade="var(--secondary)" /> </div>
             <div style={{
                 display: "flex", gap: "1rem", paddingRight: "10px", alignItems: "center", color: "#fff"
             }}>
-                <PlaceholderBox width="60px" height="20px" shade="#fff" />
-                <PlaceholderBox width="60px" height="20px" shade="#fff" />
-                <PlaceholderBox width="60px" height="20px" shade="#fff" />
-                <PlaceholderBox width="60px" height="20px" shade="#fff" />
+                <PlaceholderBox width="60px" height="20px" shade="#5c74ff" />
+                <PlaceholderBox width="60px" height="20px" shade="#5c74ff" />
+                <PlaceholderBox width="60px" height="20px" shade="#5c74ff" />
+                <PlaceholderBox width="60px" height="20px" shade="#5c74ff" />
             </div>
         </header>
     );

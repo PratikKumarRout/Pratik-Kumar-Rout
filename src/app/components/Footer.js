@@ -3,8 +3,8 @@ import PlaceholderBox from "./PlaceholderBox";
 
 export default function Footer() {
   return (
-    <footer style={{ backgroundColor: "#1a1a1a", padding: "2rem" }}>
-        <PlaceholderBox width="150px" height="20px" shade="#666" />
+    <footer style={{ backgroundColor: 'var(--secondary)', padding: "2rem" , placeItems: "center" }}>
+        <PlaceholderBox width="400px" height="30px" shade="#bbb" />
     </footer>
   );
 }
