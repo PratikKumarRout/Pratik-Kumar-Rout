@@ -7,7 +7,7 @@ export default function Hero() {
     <section style={{
       minHeight: "100vh",
       display: "flex",
-      justifyContent: "space-around"
+      justifyContent: "space-around",
     }}>
 
       <div style={{
@@ -15,24 +15,21 @@ export default function Hero() {
         justifyContent: "space-between",
       }}>
         {/* Intro placeholders */}
-        <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-around"}}>
+        <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", padding: "2rem" }}>
           <div>
             <div>
               <PlaceholderBox width="700px" height="70px" shade="#333" />
               <PlaceholderBox width="300px" height="50px" shade="#666" />
               <PlaceholderBox width="200px" height="40px" shade="#999" />
             </div>
-
-            {/* Achievements row */}
-            <div className="hero-achievements">
-              <PlaceholderBox width="200px" height="200px" shade="#444" />
-              <PlaceholderBox width="200px" height="200px" shade="#666" />
-              <PlaceholderBox width="200px" height="200px" shade="#888" />
-            </div>
-
-            
           </div>
 
+          <div className="hero-skills">
+            <PlaceholderCircle size="80px" shade="#999" />
+            <PlaceholderCircle size="80px" shade="#777" />
+            <PlaceholderCircle size="80px" shade="#555" />
+            <PlaceholderCircle size="80px" shade="#333" />
+          </div>
 
           {/* Buttons row */}
           <div className="hero-buttons">
@@ -42,16 +39,7 @@ export default function Hero() {
         </div>
 
       </div>
-    <div style={{display: "flex" , flexDirection: "column", justifyContent: "space-evenly"}}>
-      <PlaceholderBox width="300px" height="400px" borderRadius={30} />
-      {/* Skills row */}
-            <div className="hero-skills">
-              <PlaceholderCircle size="40px" shade="#999" />
-              <PlaceholderCircle size="40px" shade="#777" />
-              <PlaceholderCircle size="40px" shade="#555" />
-              <PlaceholderCircle size="40px" shade="#333" />
-            </div>
-      </div>
+      <PlaceholderBox width="400px" height="500px" borderRadius={30} />
     </section>
   );
 }

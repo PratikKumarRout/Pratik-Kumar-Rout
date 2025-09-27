@@ -14,8 +14,6 @@ body {
 body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   margin: 0;
   background-image: linear-gradient(to right, #a0cef5, #8ebffb, #89adff, #9299fd, #a580f3);
 }
@@ -59,8 +57,8 @@ header {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
-  justify-content: center;
-  margin: 30px;
+  justify-content: start;
+  margin-top: 30px;
 }
 
 /* Skills row */
@@ -74,9 +72,8 @@ header {
 /* Buttons row */
 .hero-buttons {
   display: flex;
-  gap: 1.5rem;
+  gap: 3rem;
   justify-content: center;
-  margin-top: 1rem;
 }
 
 .flex-row {
