@@ -1,3 +1,15 @@
+
+.headerSection {
+    background-color: var(--background);
+    display: flex;
+    min-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    box-shadow: var(--offset);
+    border-radius: 20px;
+}
+
 .headerTitle {
     display: flex;
     align-items: center;
@@ -13,11 +25,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .title {
-    background-color: var(--secondary);
     width: 18.75rem;
     height: 3.2rem;
     border-radius: 16px;

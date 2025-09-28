@@ -1,14 +1,11 @@
 // components/Hero.js
 import PlaceholderBox from "./PlaceholderBox";
 import PlaceholderCircle from "./PlaceholderCircle";
+import styles from "./Hero.module.css";
 
 export default function Hero() {
   return (
-    <section style={{
-      minHeight: "100vh",
-      display: "flex",
-      justifyContent: "space-around",
-    }}>
+    <section className={styles.heroSection}>
 
       <div style={{
         display: "flex",
@@ -18,9 +15,9 @@ export default function Hero() {
         <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-around", alignItems: "center" }}>
           <div>
             <div>
-              <PlaceholderBox width="700px" height="70px" shade="#e0e4ea" />
-              <PlaceholderBox width="300px" height="50px" shade="#e0e4ea" />
-              <PlaceholderBox width="200px" height="40px" shade="#e0e4ea" />
+              <div className={styles.heroTitle}><h1>Hi, I&apos;m Pratik</h1></div>
+              <div><p>I am a Software developer, builds minimal & future ready apps.</p></div>
+              <div>Software Developer</div>
             </div>
           </div>
 
