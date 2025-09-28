@@ -1,0 +1,27 @@
+.headerTitle {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.circleAvatar {
+    background-color: var(--secondary);
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.title {
+    background-color: var(--secondary);
+    width: 18.75rem;
+    height: 3.2rem;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

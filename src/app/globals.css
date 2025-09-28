@@ -1,5 +1,5 @@
 :root {
-  --background: #fff;
+  --background: #f0f0f3;
   --foreground: #171717;
   --primary: #f7f8fa;
   --secondary: #e0e4ea;
@@ -9,19 +9,24 @@
 html,
 body {
   max-width: 100vw;
+  font-size: 16px;
 }
 
 body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  background-color: var(--primary);
+  background-color: var(--background);
 }
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+.box {
+  background-color: var(--secondary);
 }
 
 section {
@@ -48,7 +53,7 @@ header {
   align-items: center;
   min-height: 100vh;
   /* full screen height */
-  width: 100%; 
+  width: 100%;
   text-align: center;
 }
 
@@ -75,6 +80,7 @@ header {
   gap: 3rem;
   justify-content: center;
 }
+
 
 .flex-row {
   display: flex;
