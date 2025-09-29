@@ -2,6 +2,14 @@ import PlaceholderBox from "./PlaceholderBox";
 import PlaceholderCircle from "./PlaceholderCircle";
 import styles from "./Header.module.css"
 
+
+const navLinks = [
+    { label: "Home", anchor: "#home" },
+    { label: "Skills", anchor: "#skills" },
+    { label: "Projects", anchor: "#projects" },
+    { label: "Contact", anchor: "#contact" },
+];
+
 export default function Header() {
     return (
         <header>
@@ -12,15 +20,16 @@ export default function Header() {
                 <div className={styles.title}>
                     <h2>PRATIK KUMAR ROUT</h2>
                 </div>
-           </div>
-            <div style={{
-                display: "flex", gap: "1rem", paddingRight: "10px", alignItems: "center", color: "#fff"
-            }}>
-                <PlaceholderBox width="60px" height="20px" shade="#5c74ff" />
-                <PlaceholderBox width="60px" height="20px" shade="#5c74ff" />
-                <PlaceholderBox width="60px" height="20px" shade="#5c74ff" />
-                <PlaceholderBox width="60px" height="20px" shade="#5c74ff" />
             </div>
+            <nav>
+                <div className={styles.navList}>
+                    {navLinks.map((link) => (
+                        <div key={link.anchor} className={styles.navItems}>
+                            <a href={link.anchor}>{link.label}</a>
+                        </div>
+                    ))}
+                </div>
+            </nav>
         </header>
     );
 }

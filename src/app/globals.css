@@ -46,14 +46,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-radius: 10px;
   position: sticky;
   top: 0;
-  box-shadow: var(--offset);
-  margin: 1rem 2rem 0;
   background-color: var(--background);
-  border-radius: 20px;
-
 }
 
 .hero {
