@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-around;
     min-height: 100vh;
+    padding: 4rem;
 }
 
 .heroTitle {
@@ -11,5 +12,62 @@
 .heroContents {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skillsContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+.skillChip {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillIcon {
+    padding: 1rem;
+    background-color: var(--secondary);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: larger;
+    margin-bottom: 8px;
+}
+
+.skillLabel {
+    font-weight: bold;
+    word-wrap: break-word;
+    font-size: medium;
+}
+
+
+.heroButtonContainer {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+
+.heroButton a{
+    background-color: var(--background);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    box-shadow: var(--offset);
+    font-size: larger;
+    font-weight: bold;
+    place-content: center;
+    text-decoration: none;
+    color: var(--accent);
+}
+
+.heroButton:hover {
+    transform: translateY(-1.2);
 }

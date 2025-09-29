@@ -70,19 +70,10 @@ header {
 }
 
 /* Skills row */
-.hero-skills {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+
 
 /* Buttons row */
-.hero-buttons {
-  display: flex;
-  gap: 3rem;
-  justify-content: center;
-}
+
 
 
 .flex-row {

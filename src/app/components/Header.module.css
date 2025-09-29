@@ -46,8 +46,12 @@
     text-decoration: none;
     background-color: var(--background);
     padding: 1rem 2rem;
-    border-radius: 16px;
+    border-radius: 1rem;
     box-shadow: var(--offset);
     color: var(--accent);
     font-weight: bold;
+}
+
+.navItems:hover {
+    transform: translateY(-1.2);
 }
