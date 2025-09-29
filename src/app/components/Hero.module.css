@@ -7,3 +7,9 @@
 .heroTitle {
     font-size: 30px;
 }
+
+.heroContents {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
