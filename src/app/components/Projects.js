@@ -3,7 +3,7 @@ import PlaceholderBox from "./PlaceholderBox";
 
 export default function Projects() {
   return (
-    <section className="container projects-grid">
+    <section id="projects" className="container projects-grid">
       {[1, 2, 3].map(i => (
         <div key={i} style={{ padding: "1rem", backgroundColor: "var(--secondary)", borderRadius: "12px" }}>
           <PlaceholderBox width="100%" height="150px" shade="#999" />

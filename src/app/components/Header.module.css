@@ -1,4 +1,3 @@
-
 .headerSection {
     background-color: var(--background);
     display: flex;
@@ -15,7 +14,7 @@
     padding: 1rem;
 }
 
-.circleAvatar {
+.circleAvatar{
     background-color: var(--secondary);
     width: 3.2rem;
     height: 3.2rem;
@@ -23,7 +22,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    text-decoration: underline;
+    text-decoration: underline 2px;
     font-weight: bold;
 }
 
@@ -39,7 +38,7 @@
 .navList {
     display: flex;
     gap: 1.2rem;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .navItems a{
@@ -50,8 +49,14 @@
     box-shadow: var(--offset);
     color: var(--accent);
     font-weight: bold;
+    transition: all 0.2s ease-in-out;
 }
 
 .navItems:hover {
-    transform: translateY(-1.2);
+    transform: translateY(var(--buttonTranslateY));
+}
+
+.navItems:active {
+    box-shadow: var(--insetOffset);
+    transform: scale(0.95);
 }

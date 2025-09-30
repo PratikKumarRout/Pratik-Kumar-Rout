@@ -3,7 +3,7 @@ import PlaceholderCircle from "./PlaceholderCircle";
 
 export default function AboutContact() {
     return (
-        <section style={{
+        <section id="contact" style={{
 
         }}>
             <div style={{

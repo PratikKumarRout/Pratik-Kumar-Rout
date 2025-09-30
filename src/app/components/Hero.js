@@ -15,7 +15,7 @@ const skills = [
 
 export default function Hero() {
   return (
-    <section className={styles.heroSection}>
+    <section id="hero" className={styles.heroSection}>
       <div className={styles.heroContents}>
         <div>
           <div className={styles.heroTitle}><h1>Hi, I&apos;m Pratik</h1></div>

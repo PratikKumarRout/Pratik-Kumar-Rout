@@ -71,3 +71,8 @@
 .heroButton:hover {
     transform: translateY(-1.2);
 }
+
+.heroButton:active {
+    box-shadow: var(--insetOffset);
+    transform: scale(0.95);
+}

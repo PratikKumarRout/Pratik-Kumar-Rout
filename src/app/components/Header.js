@@ -1,10 +1,8 @@
-import PlaceholderBox from "./PlaceholderBox";
-import PlaceholderCircle from "./PlaceholderCircle";
 import styles from "./Header.module.css"
 
 
 const navLinks = [
-    { label: "Home", anchor: "#home" },
+    { label: "Home", anchor: "#hero" },
     { label: "Skills", anchor: "#skills" },
     { label: "Projects", anchor: "#projects" },
     { label: "Contact", anchor: "#contact" },
