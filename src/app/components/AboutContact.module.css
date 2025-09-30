@@ -10,14 +10,14 @@
     align-items: flex-start;
 }
 
-
-
-.about, .contact {
+.about,
+.contact {
     flex: 1;
     min-width: 0;
 }
 
-.about h2, .contact h2 {
+.about h2,
+.contact h2 {
     margin-bottom: 1rem;
     text-decoration: underline;
 }
@@ -28,4 +28,19 @@
     margin: 0 auto;
     text-align: left;
     font-size: 1.1rem;
+}
+
+.contactList a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    list-style: disc inside;
+}
+
+.contactList a::before {
+    content: "➡️ ";
+}
+
+.contactList a:hover {
+    color: var(--accent);
 }
