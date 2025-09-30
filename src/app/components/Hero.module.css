@@ -56,14 +56,17 @@
     margin-bottom: 5rem;
 }
 
-.heroButton a {
+.heroButton {
     background-color: var(--background);
     padding: 1rem 2rem;
     border-radius: 1rem;
     box-shadow: var(--offset);
+    place-content: center;
+}
+
+.heroButton a {
     font-size: 1.37rem;
     font-weight: bold;
-    place-content: center;
     text-decoration: none;
     color: var(--accent);
 }
@@ -73,5 +76,6 @@
 }
 
 .heroButton:active {
+    box-shadow: var(--insetOffset);
     transform: scale(0.95);
 }

@@ -41,16 +41,19 @@
     padding: 1rem;
 }
 
-.navItems a{
-    text-decoration: none;
+.navItems {
     background-color: var(--background);
     padding: 1rem 2rem;
     border-radius: 1rem;
     box-shadow: var(--offset);
-    color: var(--accent);
-    font-weight: bold;
-    font-size: medium;
     transition: all 0.2s ease-in-out;
+}
+
+.navItems a {
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+    color: var(--accent);
 }
 
 .navItems:hover {
@@ -58,5 +61,6 @@
 }
 
 .navItems:active {
+    box-shadow: var(--insetOffset);
     transform: scale(0.95);
 }
