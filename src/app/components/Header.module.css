@@ -57,6 +57,5 @@
 }
 
 .navItems:active {
-    box-shadow: var(--insetOffset);
     transform: scale(0.95);
 }

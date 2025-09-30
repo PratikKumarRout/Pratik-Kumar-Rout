@@ -56,7 +56,7 @@
     margin-bottom: 5rem;
 }
 
-.heroButton a{
+.heroButton a {
     background-color: var(--background);
     padding: 1rem 2rem;
     border-radius: 1rem;
@@ -73,6 +73,5 @@
 }
 
 .heroButton:active {
-    box-shadow: var(--insetOffset);
     transform: scale(0.95);
 }

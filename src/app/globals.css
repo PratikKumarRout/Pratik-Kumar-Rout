@@ -7,7 +7,6 @@
   --shadowDark: #d1d9e6;
   --shadowLight: #ffffff;
   --offset: 2px 2px 7px 1px var(--shadowDark), -2px -2px 7px 1px var(--shadowLight);
-  --insetOffset: inset 2px 2px 7px 1px var(--shadowDark), inset -2px -2px 7px 1px var(--shadowLight);
   --buttonTranslateY: -1.3px;
 }
 
