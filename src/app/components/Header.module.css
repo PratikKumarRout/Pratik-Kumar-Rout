@@ -49,6 +49,7 @@
     box-shadow: var(--offset);
     color: var(--accent);
     font-weight: bold;
+    font-size: medium;
     transition: all 0.2s ease-in-out;
 }
 

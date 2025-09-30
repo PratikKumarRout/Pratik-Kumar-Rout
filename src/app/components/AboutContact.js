@@ -4,29 +4,17 @@ import styles from "./AboutContact.module.css";
 
 export default function AboutContact() {
     return (
-        <section id="contact" style={{
-
-        }}>
-            <div style={{
-                maxWidth: "1200px",
-                display: "flex",
-                justifyContent: "space-between",
-                gap: "5rem",
-                alignItems: "center",
-                margin: "auto",
-                padding: "4rem",
-                backgroundColor: "#e0e4ea",
-                borderRadius: "20px"
-            }}>
-                <div style={{ flex: 1, placeItems: "center" }}>
+        <section id="contact">
+            <div className={styles.aboutContactContainer}>
+                <div className={styles.about} >
                     <h2>About</h2>
                     <p className={styles.para}>I&apos;m a software developer specializing in scalable web and mobile apps with expertise in React, Next.js, Flutter, and Firebase.
                         I combine clean, minimal UI design with modular, future-ready architecture to deliver apps that are both elegant and high-performing.
                         With experience in software development and UI/UX, I bring clarity, precision, and creativity to every project I take on.</p>
                 </div>
-                <div style={{ flex: 1, placeItems: "center" }}>
+                <div className={styles.contact}>
                     <h2>Contact</h2>
-                    <div style={{ display: "flex" }}>
+                    <div>
                         <ul>
                             <li>Mail</li>
                             <li>Git hub</li>
