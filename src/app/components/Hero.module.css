@@ -13,7 +13,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     max-width: 48rem;
 }
 
@@ -87,8 +87,8 @@
 
 
 .heroImage {
-    width: 31rem;
-    height: 32.25rem;
+    width: 25rem;
+    height: 30rem;
     border-radius: 1rem;
     object-fit: cover;
     border: 2px solid var(--accent);

@@ -47,9 +47,6 @@
     border-radius: 1rem;
     box-shadow: var(--offset);
     transition: all 0.2s ease-in-out;
-}
-
-.navItems a {
     text-decoration: none;
     font-size: medium;
     font-weight: bold;

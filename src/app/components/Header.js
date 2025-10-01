@@ -3,8 +3,8 @@ import styles from "./Header.module.css"
 
 const navLinks = [
     { label: "Home", anchor: "#hero" },
-    { label: "Skills", anchor: "#skills" },
     { label: "Projects", anchor: "#projects" },
+    { label: "Certificates", anchor: "#certificates" },
     { label: "Contact", anchor: "#contact" },
 ];
 
@@ -22,9 +22,9 @@ export default function Header() {
             <nav>
                 <div className={styles.navList}>
                     {navLinks.map((link) => (
-                        <div key={link.anchor} className={styles.navItems}>
-                            <a href={link.anchor}>{link.label}</a>
-                        </div>
+                        <a key={link.anchor} href={link.anchor} className={styles.navItems}>
+                            <p>{link.label}</p>
+                        </a>
                     ))}
                 </div>
             </nav>

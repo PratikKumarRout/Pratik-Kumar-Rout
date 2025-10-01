@@ -34,7 +34,6 @@ export default function Hero() {
             &quot;Design Smart. Build Fast.&quot;
           </p>
         </div>
-
         <div className={styles.skillsContainer}>
           <div className={styles.skillsTrack}>
             {
@@ -45,7 +44,7 @@ export default function Hero() {
                 </div>
               ))}
           </div>
-          <h3 style={{ marginTop: "1rem", placeSelf: "center"}} >Skills</h3>
+          <p style={{ marginTop: "1rem", placeSelf: "center", fontWeight: "bold", fontSize: "1.25rem" }} >Skills</p>
         </div>
         <div className={styles.heroButtonContainer}>
           <Link href="#projects" className={styles.heroButton}>
