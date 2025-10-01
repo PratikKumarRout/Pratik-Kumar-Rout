@@ -1,19 +1,23 @@
 // components/Hero.js
-import PlaceholderBox from "./PlaceholderBox";
-import PlaceholderCircle from "./PlaceholderCircle";
 import styles from "./Hero.module.css";
 import Link from "next/link";
 import Image from "next/image";
 
 const skills = [
-  { label: "React", icon: "⚛️" },        // React atom logo
-  { label: "Flutter", icon: "💙" },      // Flutter blue heart (or 🐦 for Dart/Flutter bird)
-  { label: "Firebase", icon: "🔥" },     // Firebase flame
-  { label: "MySQL", icon: "🐬" },        // Dolphin (MySQL mascot)
+  { label: "React", icon: "⚛️" },        // React atom
   { label: "HTML", icon: "🌐" },         // Globe for web markup
   { label: "CSS", icon: "🎨" },          // Palette for styling
-  { label: "JavaScript", icon: "📜" },   // Scroll (JS scripts) or ⚡ for dynamic
+  { label: "JavaScript", icon: "📜" },   // Scroll (JS scripts)
+  { label: "Java", icon: "☕" },         // Coffee cup
+  { label: "Dart", icon: "🎯" },         // Dartboard pun
+  { label: "Flutter", icon: "💙" },      // Flutter blue heart
+  { label: "Firebase", icon: "🔥" },     // Firebase flame
+  { label: "AI Tools", icon: "🤖" },     // Robot face (AI/automation)
+  { label: "MySQL", icon: "🐬" },        // Dolphin (MySQL mascot)
+  { label: "GitHub", icon: "🐙" },       // Octopus (Octocat nod)
 ];
+
+
 
 export default function Hero() {
   return (
@@ -32,32 +36,35 @@ export default function Hero() {
         </div>
 
         <div className={styles.skillsContainer}>
-          {
-            skills.map((skill, index) => (
-              <div key={index} className={styles.skillChip}>
-                <div className={styles.skillIcon}>{skill.icon}</div>
-                <span className={styles.skillLabel} >{skill.label}</span>
-              </div>
-            ))}
+          <div className={styles.skillsTrack}>
+            {
+              [...skills, ...skills].map((skill, index) => (
+                <div key={index} className={styles.skillChip}>
+                  <div className={styles.skillIcon}>{skill.icon}</div>
+                  <span className={styles.skillLabel} >{skill.label}</span>
+                </div>
+              ))}
+          </div>
+          <h3 style={{ marginTop: "1rem", placeSelf: "center"}} >Skills</h3>
         </div>
         <div className={styles.heroButtonContainer}>
           <Link href="#projects" className={styles.heroButton}>
             Projects
           </Link>
-          
+
           <Link href="#contact" className={styles.heroButton}>
             Contact
           </Link>
         </div>
       </div>
-        <Image
-          src="/profileImage.jpg"
-          alt="Pratik Kumar Rout"
-          className={styles.heroImage}
-          width={300}
-          height={300}
-          priority
-        />
+      <Image
+        src="/profileImage.jpg"
+        alt="Pratik Kumar Rout"
+        className={styles.heroImage}
+        width={300}
+        height={300}
+        priority
+      />
     </section>
   );
 }
