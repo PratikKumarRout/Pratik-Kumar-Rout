@@ -39,7 +39,7 @@
 }
 
 .contactList a::before {
-    content: "➡️ ";
+    content: "● ";
 }
 
 .contactList a:hover {

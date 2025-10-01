@@ -25,7 +25,7 @@ export default function Hero() {
               I develop apps using modular architecture & minimal UI.</p>
           </div>
           <p style={{ fontWeight: "bold", fontSize: "1.37rem", padding: "10px" }}>
-            &quot;Desing Smart. Build Fast.&quot;
+            &quot;Design Smart. Build Fast.&quot;
           </p>
         </div>
 

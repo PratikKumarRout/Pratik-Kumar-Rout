@@ -1,0 +1,11 @@
+.footerPara {
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.footerSection {
+    background-color: var(--secondary);
+    padding: 2rem;
+    place-items: center;
+}

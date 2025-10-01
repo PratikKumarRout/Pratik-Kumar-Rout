@@ -14,9 +14,11 @@ export default function AboutContact() {
                 <div className={styles.about} >
                     <h2>About</h2>
                     <p className={styles.para}>
-                        I&apos;m a software developer specializing in scalable web and mobile apps with expertise in React, Next.js, Flutter, and Firebase.
-                        I combine clean, minimal UI design with modular, future-ready architecture to deliver apps that are both elegant and high-performing.
-                        With experience in software development and UI/UX, I bring clarity, precision, and creativity to every project I take on.</p>
+                        I&apos;m Pratik Kumar Rout, a software developer passionate about creating scalable web and mobile applications that balance technical precision with clean, minimal design.
+                        With expertise in React, Next.js, Flutter, and Firebase, I focus on modular architecture and future-ready solutions that are both elegant and high-performing.
+                        <br /> My approach is methodical yet creative...
+                        <br /> — from debugging complex logic to refining layouts with clarity and proportion
+                        <br /> — always aiming to deliver apps that feel effortless to use and built to last.</p>
                 </div>
                 <div className={styles.contact}>
                     <h2>Contact Me</h2>

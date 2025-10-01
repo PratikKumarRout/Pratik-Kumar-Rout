@@ -1,10 +1,11 @@
 // components/Footer.js
-import PlaceholderBox from "./PlaceholderBox";
+import styles from "./Footer.module.css"
 
 export default function Footer() {
   return (
-    <footer style={{ backgroundColor: 'var(--secondary)', padding: "2rem" , placeItems: "center" }}>
-        <PlaceholderBox width="400px" height="30px" shade="#bbb" />
+    <footer className={styles.footerSection}>
+        <p className={styles.footerPara} > © {new Date().getFullYear()} PRATIK KUMAR ROUT. <br/>
+        All rights reserved.</p>
     </footer>
   );
 }
