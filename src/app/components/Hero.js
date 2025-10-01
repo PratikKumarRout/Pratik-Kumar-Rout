@@ -2,6 +2,7 @@
 import PlaceholderBox from "./PlaceholderBox";
 import PlaceholderCircle from "./PlaceholderCircle";
 import styles from "./Hero.module.css";
+import Link from "next/link";
 
 const skills = [
   { label: "React", icon: "⚛️" },        // React atom logo
@@ -39,12 +40,13 @@ export default function Hero() {
             ))}
         </div>
         <div className={styles.heroButtonContainer}>
-          <div className={styles.heroButton}>
-            <a href="#projects">Projects</a>
-          </div>
-          <div className={styles.heroButton}>
-            <a href="#contact">Contact</a>
-          </div>
+          <Link href="#projects" className={styles.heroButton}>
+            Projects
+          </Link>
+          
+          <Link href="#contact" className={styles.heroButton}>
+            Contact
+          </Link>
         </div>
       </div>
       <PlaceholderBox width="400px" height="500px" borderRadius={30} />

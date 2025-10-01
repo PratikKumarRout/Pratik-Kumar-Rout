@@ -62,13 +62,10 @@
     border-radius: 1rem;
     box-shadow: var(--offset);
     place-content: center;
-}
-
-.heroButton a {
-    font-size: 1.37rem;
     font-weight: bold;
     text-decoration: none;
     color: var(--accent);
+    font-size: 1.35rem;
 }
 
 .heroButton:hover {
