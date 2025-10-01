@@ -22,6 +22,8 @@
     align-items: center;
     flex-wrap: nowrap;
     gap: 16px;
+    height: 10%;
+    width: 100%;
 }
 
 .skillChip {
@@ -65,7 +67,7 @@
     font-weight: bold;
     text-decoration: none;
     color: var(--accent);
-    font-size: 1.35rem;
+    font-size: 1.37rem;
 }
 
 .heroButton:hover {
@@ -75,4 +77,13 @@
 .heroButton:active {
     box-shadow: var(--insetOffset);
     transform: scale(0.95);
+}
+
+
+.heroImage {
+    width: 31rem;
+    height: 32.25rem;
+    border-radius: 1rem;
+    object-fit: cover;
+    border: 2px solid var(--accent);
 }

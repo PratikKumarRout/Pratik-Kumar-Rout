@@ -30,16 +30,16 @@
     font-size: 1.1rem;
 }
 
-.contactList a {
-    text-decoration: none;
+.contactList {
     font-weight: bold;
     font-size: 1.1rem;
-    list-style: disc inside;
     line-height: 1.5;
 }
 
-.contactList a::before {
-    content: "● ";
+.contactList a {
+    text-decoration: none;
+    list-style: inside;
+
 }
 
 .contactList a:hover {

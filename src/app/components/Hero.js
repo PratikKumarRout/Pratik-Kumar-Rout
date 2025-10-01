@@ -3,6 +3,7 @@ import PlaceholderBox from "./PlaceholderBox";
 import PlaceholderCircle from "./PlaceholderCircle";
 import styles from "./Hero.module.css";
 import Link from "next/link";
+import Image from "next/image";
 
 const skills = [
   { label: "React", icon: "⚛️" },        // React atom logo
@@ -49,7 +50,14 @@ export default function Hero() {
           </Link>
         </div>
       </div>
-      <PlaceholderBox width="400px" height="500px" borderRadius={30} />
+        <Image
+          src="/profileImage.jpg"
+          alt="Pratik Kumar Rout"
+          className={styles.heroImage}
+          width={300}
+          height={300}
+          priority
+        />
     </section>
   );
 }
