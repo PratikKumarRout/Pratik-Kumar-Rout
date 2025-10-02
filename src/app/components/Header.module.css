@@ -24,6 +24,7 @@
     justify-content: center;
     text-decoration: underline 2px;
     font-weight: bold;
+    border: 2px solid var(--primary);
 }
 
 .title {

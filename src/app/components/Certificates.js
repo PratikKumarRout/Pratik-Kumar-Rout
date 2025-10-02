@@ -1,5 +1,4 @@
 import styles from "./Certificates.module.css";
-import PlaceholderBox from "./PlaceholderBox";
 import Image from "next/image";
 
 const certificates = [
@@ -13,8 +12,8 @@ const certificates = [
 export default function Certificates() {
     return (
         <section id="certificates">
-            <div className={styles.certificate_heading}> 
-            <h2>Certificates</h2></div>
+            <div className={styles.certificate_heading}>
+                <h2>Certificates</h2></div>
             <div className={styles.certificatesContainer}>
                 <div className={styles.certificateScroll}>
                     {[...certificates, ...certificates].map((certificate, index) => (
@@ -24,12 +23,8 @@ export default function Certificates() {
                                 alt={certificate.label}
                                 height={300}
                                 width={400}
-                                style={{ objectFit: "cover" }}
-                            />
-                            <p style={{
-                                color: "var(--accent)",
-                                fontWeight: "bold"
-                            }}>{certificate.label}</p>
+                                className={styles.certificateImage} />
+                            <p>{certificate.label}</p>
                         </div>
                     ))}
                 </div>

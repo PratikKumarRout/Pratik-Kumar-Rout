@@ -4,6 +4,7 @@
     padding: 1rem 2rem;
     border-radius: 1.25rem;
     overflow-x: hidden;
+    background-color: var(--secondary);
 }
 
 .certificate_heading {
@@ -18,12 +19,25 @@
 .certificateScroll {
     display: flex;
     gap: 1rem;
-    animation: certificateScroll 10s linear 2s infinite alternate-reverse;
+    animation: certificateScroll 10s linear 1s infinite alternate-reverse;
 }
 
 .certificateChip {
     padding: 1rem;
-    background-color: var(--secondary);
+    background-color: var(--primary);
+    border-radius: 1rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.certificateImage {
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.certificateScroll:hover {
+    animation-play-state: paused;
 }
 
 @keyframes certificateScroll {
