@@ -22,7 +22,7 @@ export default function Header() {
             <nav>
                 <div className={styles.navList}>
                     {navLinks.map((link) => (
-                        <a key={link.anchor} href={link.anchor} className={styles.navItems}>
+                        <a key={link.anchor} href={link.anchor} rel="noopner noreferrer" className={styles.navItems}>
                             <p>{link.label}</p>
                         </a>
                     ))}

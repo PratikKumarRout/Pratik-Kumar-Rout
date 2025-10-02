@@ -1,0 +1,28 @@
+.certificatesContainer {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem 2rem;
+    border-radius: 1.25rem;
+    overflow-x: hidden;
+}
+
+.certificateScroll {
+    display: flex;
+    gap: 1rem;
+    animation: certificateScroll 10s linear 2s infinite alternate-reverse;
+}
+
+.certificateChip {
+    padding: 1rem;
+    background-color: var(--secondary);
+}
+
+@keyframes certificateScroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+    
+}

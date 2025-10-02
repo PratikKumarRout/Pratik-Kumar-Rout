@@ -47,11 +47,15 @@ export default function Hero() {
           <p style={{ marginTop: "1rem", placeSelf: "center", fontWeight: "bold", fontSize: "1.25rem" }} >Skills</p>
         </div>
         <div className={styles.heroButtonContainer}>
-          <Link href="#projects" className={styles.heroButton}>
+          <Link href="#projects" rel="noopner noreferrer" className={styles.heroButton}>
             Projects
           </Link>
 
-          <Link href="#contact" className={styles.heroButton}>
+          <Link href="/certificates/myresume.pdf" target="_blank" rel="noopner noreferrer" className={styles.heroButton}>
+            Resume
+          </Link>
+
+          <Link href="#contact" rel="noopner noreferrer" className={styles.heroButton}>
             Contact
           </Link>
         </div>

@@ -28,7 +28,7 @@ export default function AboutContact() {
                         {/* make a list of those contacts using map function */}
                         {contacts.map((contact, index) => (
                             <div key={index} className={styles.contactList}>
-                                <a href={contact.url}>{contact.icon} {contact.label}</a>  
+                                <a href={contact.url} target="_blank" rel="noopner noreferrer">{contact.icon} {contact.label}</a>  
                             </div>
                         ))}
                     </div>
