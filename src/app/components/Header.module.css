@@ -55,7 +55,7 @@
 }
 
 .nav_items:hover {
-    transform: translateY(var(--buttonTranslateY));
+    transform: translateY(var(--btnY));
 }
 
 .nav_items:active {

@@ -5,6 +5,7 @@ const contacts = [
     { label: "GitHub", url: "https://github.com/PratikKumarRout", icon: "💻" },
     { label: "LinkedIn", url: "https://www.linkedin.com/in/pratikkumarrout", icon: "🔗" },
     { label: "Instagram", url: "https://www.instagram.com/pratikkumarrout09", icon: "📷" },
+    { label: "My Resume", url: "/certificates/myresume.pdf", icon: "📄" },
 ];
 
 export default function AboutContact() {

@@ -35,7 +35,15 @@
 
 .certificate_scroll:hover {
     animation-play-state: paused;
+    cursor: wait;
 }
+
+.certificate_chip:hover {
+    transform: translateY(var(--btnY));
+    border: 1px solid var(--accent);
+}
+
+
 
 @keyframes certificateScroll {
     0% {
