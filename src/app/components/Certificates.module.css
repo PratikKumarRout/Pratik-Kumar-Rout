@@ -6,6 +6,15 @@
     overflow-x: hidden;
 }
 
+.certificate_heading {
+    place-items: center;
+}
+
+.certificate_heading h2 {
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+
 .certificateScroll {
     display: flex;
     gap: 1rem;
@@ -21,8 +30,9 @@
     0% {
         transform: translateX(0);
     }
+
     100% {
         transform: translateX(-100%);
     }
-    
+
 }
