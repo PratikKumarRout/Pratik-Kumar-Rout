@@ -1,4 +1,4 @@
-.certificatesContainer {
+.certificates_container {
     max-width: 1200px;
     margin: auto;
     padding: 1rem 2rem;
@@ -7,22 +7,19 @@
     background-color: var(--secondary);
 }
 
-.certificate_heading {
-    place-items: center;
-}
-
 .certificate_heading h2 {
     margin-bottom: 1rem;
     text-decoration: underline;
+    text-align: center;
 }
 
-.certificateScroll {
+.certificate_scroll {
     display: flex;
     gap: 1rem;
     animation: certificateScroll 10s linear 1s infinite alternate-reverse;
 }
 
-.certificateChip {
+.certificate_chip {
     padding: 1rem;
     background-color: var(--primary);
     border-radius: 1rem;
@@ -31,12 +28,12 @@
     font-size: medium;
 }
 
-.certificateImage {
+.certificate_image {
     object-fit: cover;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
 }
 
-.certificateScroll:hover {
+.certificate_scroll:hover {
     animation-play-state: paused;
 }
 

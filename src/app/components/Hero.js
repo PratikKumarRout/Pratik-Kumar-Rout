@@ -21,10 +21,10 @@ const skills = [
 
 export default function Hero() {
   return (
-    <section id="hero" className={styles.heroSection}>
-      <div className={styles.heroContents}>
+    <section id="hero" className={styles.hero_section}>
+      <div className={styles.hero_contents}>
         <div>
-          <div className={styles.heroTitle}><h1>Hi, I&apos;m Pratik</h1></div>
+          <div className={styles.hero_title}><h1>Hi, I&apos;m Pratik</h1></div>
           <div>
             <p style={{ fontWeight: "bold", fontSize: "1.25rem", padding: "10px" }}>
               - a software developer specializing in minimal, scalable web & mobile apps.<br />
@@ -34,28 +34,28 @@ export default function Hero() {
             &quot;Design Smart. Build Fast.&quot;
           </p>
         </div>
-        <div className={styles.skillsContainer}>
-          <div className={styles.skillsTrack}>
+        <div className={styles.skills_container}>
+          <div className={styles.skills_track}>
             {
               [...skills, ...skills].map((skill, index) => (
-                <div key={index} className={styles.skillChip}>
-                  <div className={styles.skillIcon}>{skill.icon}</div>
-                  <span className={styles.skillLabel} >{skill.label}</span>
+                <div key={index} className={styles.skill_chip}>
+                  <div className={styles.skill_icon}>{skill.icon}</div>
+                  <span className={styles.skill_label} >{skill.label}</span>
                 </div>
               ))}
           </div>
           <p style={{ marginTop: "1rem", placeSelf: "center", fontWeight: "bold", fontSize: "1.25rem" }} >Skills</p>
         </div>
-        <div className={styles.heroButtonContainer}>
-          <Link href="#projects" rel="noopner noreferrer" className={styles.heroButton}>
+        <div className={styles.hero_button_container}>
+          <Link href="#projects" rel="noopner noreferrer" className={styles.hero_button}>
             Projects
           </Link>
 
-          <Link href="/certificates/myresume.pdf" target="_blank" rel="noopner noreferrer" className={styles.heroButton}>
+          <Link href="/certificates/myresume.pdf" target="_blank" rel="noopner noreferrer" className={styles.hero_button}>
             Resume
           </Link>
 
-          <Link href="#contact" rel="noopner noreferrer" className={styles.heroButton}>
+          <Link href="#contact" rel="noopner noreferrer" className={styles.hero_button}>
             Contact
           </Link>
         </div>
@@ -63,7 +63,7 @@ export default function Hero() {
       <Image
         src="/profileImage.jpg"
         alt="Pratik Kumar Rout"
-        className={styles.heroImage}
+        className={styles.hero_image}
         width={300}
         height={300}
         priority

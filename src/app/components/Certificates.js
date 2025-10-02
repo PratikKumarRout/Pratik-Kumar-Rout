@@ -14,16 +14,16 @@ export default function Certificates() {
         <section id="certificates">
             <div className={styles.certificate_heading}>
                 <h2>Certificates</h2></div>
-            <div className={styles.certificatesContainer}>
-                <div className={styles.certificateScroll}>
+            <div className={styles.certificates_container}>
+                <div className={styles.certificate_scroll}>
                     {[...certificates, ...certificates].map((certificate, index) => (
-                        <div key={index} className={styles.certificateChip}>
+                        <div key={index} className={styles.certificate_chip}>
                             <Image
                                 src={certificate.url}
                                 alt={certificate.label}
                                 height={300}
                                 width={400}
-                                className={styles.certificateImage} />
+                                className={styles.certificate_image} />
                             <p>{certificate.label}</p>
                         </div>
                     ))}

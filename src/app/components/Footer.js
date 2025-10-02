@@ -3,8 +3,8 @@ import styles from "./Footer.module.css"
 
 export default function Footer() {
   return (
-    <footer className={styles.footerSection}>
-        <p className={styles.footerPara} > © {new Date().getFullYear()} PRATIK KUMAR ROUT. <br/>
+    <footer className={styles.footer_section}>
+        <p className={styles.footer_para} > © {new Date().getFullYear()} PRATIK KUMAR ROUT. <br/>
         All rights reserved.</p>
     </footer>
   );

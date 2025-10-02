@@ -1,10 +1,10 @@
-.footerPara {
+.footer_para {
     font-weight: bold;
     line-height: 1.5;
     text-align: center;
 }
 
-.footerSection {
+.footer_section {
     background-color: var(--secondary);
     padding: 2rem;
     place-items: center;

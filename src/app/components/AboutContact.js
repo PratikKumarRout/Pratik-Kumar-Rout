@@ -10,7 +10,7 @@ const contacts = [
 export default function AboutContact() {
     return (
         <section id="contact">
-            <div className={styles.aboutContactContainer}>
+            <div className={styles.aboutContact_container}>
                 <div className={styles.about} >
                     <h2>About</h2>
                     <p className={styles.para}>
@@ -27,7 +27,7 @@ export default function AboutContact() {
                     <div style={{marginTop: "1rem"}}>
                         {/* make a list of those contacts using map function */}
                         {contacts.map((contact, index) => (
-                            <div key={index} className={styles.contactList}>
+                            <div key={index} className={styles.contact_list}>
                                 <a href={contact.url} target="_blank" rel="noopner noreferrer">{contact.icon} {contact.label}</a>  
                             </div>
                         ))}

@@ -11,8 +11,8 @@ const navLinks = [
 export default function Header() {
     return (
         <header>
-            <div className={styles.headerTitle}>
-                <div className={styles.circleAvatar}>
+            <div className={styles.header_title}>
+                <div className={styles.circle_avatar}>
                     PKR
                 </div>
                 <div className={styles.title}>
@@ -20,9 +20,9 @@ export default function Header() {
                 </div>
             </div>
             <nav>
-                <div className={styles.navList}>
+                <div className={styles.nav_list}>
                     {navLinks.map((link) => (
-                        <a key={link.anchor} href={link.anchor} rel="noopner noreferrer" className={styles.navItems}>
+                        <a key={link.anchor} href={link.anchor} rel="noopner noreferrer" className={styles.nav_items}>
                             <p>{link.label}</p>
                         </a>
                     ))}

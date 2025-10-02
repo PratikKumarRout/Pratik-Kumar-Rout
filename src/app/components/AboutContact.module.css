@@ -1,4 +1,4 @@
-.aboutContactContainer {
+.aboutContact_container {
     display: flex;
     max-width: 1200px;
     justify-content: space-between;
@@ -30,18 +30,18 @@
     font-size: 1.1rem;
 }
 
-.contactList {
+.contac_lList {
     font-weight: bold;
     font-size: 1.1rem;
     line-height: 1.5;
 }
 
-.contactList a {
+.contact_list a {
     text-decoration: none;
     list-style: inside;
 
 }
 
-.contactList a:hover {
+.contact_list a:hover {
     color: var(--accent);
 }

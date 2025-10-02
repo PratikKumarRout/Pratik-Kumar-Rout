@@ -1,4 +1,4 @@
-.headerSection {
+.header_section {
     background-color: var(--background);
     display: flex;
     align-items: center;
@@ -7,15 +7,15 @@
     border-radius: 20px;
 }
 
-.headerTitle {
+.header_title {
     display: flex;
     align-items: center;
     gap: 1rem;
     padding: 1rem;
 }
 
-.circleAvatar{
-    background-color: var(--secondary);
+.circle_avatar{
+    background-color: var(--primary);
     width: 3.2rem;
     height: 3.2rem;
     border-radius: 50%;
@@ -24,7 +24,7 @@
     justify-content: center;
     text-decoration: underline 2px;
     font-weight: bold;
-    border: 2px solid var(--primary);
+    border: 2px solid var(--secondary);
 }
 
 .title {
@@ -36,13 +36,13 @@
     align-items: center;
 }
 
-.navList {
+.nav_list {
     display: flex;
     gap: 1.2rem;
     padding: 1rem;
 }
 
-.navItems {
+.nav_items {
     background-color: var(--background);
     padding: 1rem 2rem;
     border-radius: 1rem;
@@ -54,11 +54,11 @@
     color: var(--accent);
 }
 
-.navItems:hover {
+.nav_items:hover {
     transform: translateY(var(--buttonTranslateY));
 }
 
-.navItems:active {
+.nav_items:active {
     box-shadow: var(--insetOffset);
     transform: scale(0.95);
 }
