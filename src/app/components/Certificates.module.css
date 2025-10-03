@@ -35,7 +35,6 @@
 
 .certificate_scroll:hover {
     animation-play-state: paused;
-    cursor: wait;
 }
 
 .certificate_chip:hover {

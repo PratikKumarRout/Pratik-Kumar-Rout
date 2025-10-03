@@ -9,17 +9,30 @@
     margin: 1rem;
 }
 
- .projects_container {
+.projects_container {
     padding: 1rem 2rem;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
- }
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
 
+.project_chip {
+    background-color: var(--secondary);
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 
+.project_details {
+    text-align: start;
+}
 
 .project_image {
-    background-color: var(--secondary);
-    height: 200px;
     width: 200px;
-    margin: 1rem;
+    height: 200px;
+    background-color: var(--primary);
+    border-radius: 0.5rem;
 }
