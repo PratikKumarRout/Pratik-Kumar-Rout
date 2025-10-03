@@ -47,10 +47,7 @@
     transition: transform 200ms linear;
 }
 
-.contact_list a:hover {
-    color: var(--accent);
-}   
-
 .contact_list p:hover {
     transform: scale(1.1);
+    color: var(--accent);
 }

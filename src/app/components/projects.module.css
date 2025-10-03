@@ -34,17 +34,26 @@
     margin-bottom: 1rem;
 }
 
-.project_link {
+.project_details a {
     text-decoration: none;
     font-weight: bold;
     font-size: medium;
+    display: flex;
+    gap: 0.5rem;
 }
 
-.project_link:hover {
+.project_details a>p {
+    font-size: 1.1rem;
+    transition: transform 200ms linear;
+}
+
+.project_details a>p:hover {
     color: var(--accent);
+    transform: scale(1.1);
 }
 
-.project_link::before {
+
+.project_details a::before {
     content: "🌐";
 }
 

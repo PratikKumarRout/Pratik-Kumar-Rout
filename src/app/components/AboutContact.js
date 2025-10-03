@@ -25,11 +25,11 @@ export default function AboutContact() {
                     <p className={styles.para}>“Collaboration Starts with a Hello.” <br />
                         The best way to reach me is through email, but I&apos;m also available on other platforms.
                     </p>
-                    <div style={{marginTop: "1rem"}}>
+                    <div style={{ marginTop: "1rem" }}>
                         {/* make a list of those contacts using map function */}
                         {contacts.map((contact, index) => (
                             <div key={index} className={styles.contact_list}>
-                                <a href={contact.url} target="_blank" rel="noopner noreferrer">{contact.icon} <p>{contact.label}</p></a>  
+                                <a href={contact.url} target="_blank" rel="noopner noreferrer">{contact.icon} <p>{contact.label}</p></a>
                             </div>
                         ))}
                     </div>
