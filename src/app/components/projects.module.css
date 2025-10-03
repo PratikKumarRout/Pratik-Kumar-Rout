@@ -40,9 +40,14 @@
     font-size: medium;
 }
 
-.project_link::before{
+.project_link:hover {
+    color: var(--accent);
+}
+
+.project_link::before {
     content: "🌐";
 }
+
 .project_image {
     width: 250px;
     height: 300px;
