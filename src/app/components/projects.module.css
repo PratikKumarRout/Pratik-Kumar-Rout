@@ -21,18 +21,31 @@
     padding: 1rem;
     border-radius: 1rem;
     display: flex;
-    align-items: center;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
 .project_details {
     text-align: start;
+    line-height: 1.5;
 }
 
+.project_details p {
+    margin-bottom: 1rem;
+}
+
+.project_link {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.project_link::before{
+    content: "🌐";
+}
 .project_image {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 300px;
     background-color: var(--primary);
-    border-radius: 0.5rem;
+    border-radius: 1rem;
 }
