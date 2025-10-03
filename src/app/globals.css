@@ -41,11 +41,6 @@ section {
   scroll-margin-top: 3rem;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 header {
   display: flex;
   justify-content: space-between;

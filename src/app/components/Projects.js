@@ -1,16 +1,23 @@
 // components/Projects.js
-import PlaceholderBox from "./PlaceholderBox";
+import styles from "./projects.module.css";
+
+const projects = [
+  { label: "Neomorphic UI Clock" },
+  { label: "Neomorphic UI Clock" },
+  { label: "Neomorphic UI Clock" },
+];
 
 export default function Projects() {
   return (
-    <section id="projects" className="container projects-grid">
-      {[1, 2, 3].map(i => (
-        <div key={i} style={{ padding: "1rem", backgroundColor: "var(--secondary)", borderRadius: "12px" }}>
-          <PlaceholderBox width="100%" height="150px" shade="#999" />
-          <PlaceholderBox width="80%" height="20px" shade="#bbb" />
-          <PlaceholderBox width="60%" height="15px" shade="var(--accent)" />
+    <section id="projects">
+      <div className={styles.project_section}>
+        <h2>Projects</h2>
+        <div className={styles.projects_container}>
+          {projects.map((project, index) => (
+            <div key={index}> {project.label} </div>
+          ))}
         </div>
-      ))}
+      </div>
     </section>
   );
 }

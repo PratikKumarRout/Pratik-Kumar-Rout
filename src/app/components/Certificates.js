@@ -13,7 +13,8 @@ export default function Certificates() {
     return (
         <section id="certificates">
             <div className={styles.certificate_heading}>
-                <h2>Certificates</h2></div>
+                <h2>Certificates</h2>
+                </div>
             <div className={styles.certificates_container}>
                 <div className={styles.certificate_scroll}>
                     {[...certificates, ...certificates].map((certificate, index) => (

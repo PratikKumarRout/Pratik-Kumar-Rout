@@ -1,0 +1,25 @@
+.project_section {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.project_section h2 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 1rem;
+}
+
+ .projects_container {
+    padding: 1rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+ }
+
+
+
+.project_image {
+    background-color: var(--secondary);
+    height: 200px;
+    width: 200px;
+    margin: 1rem;
+}
