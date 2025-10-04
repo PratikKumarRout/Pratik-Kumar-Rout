@@ -63,9 +63,11 @@
     transform: scale(0.95);
 }
 
+
 @media (max-width: 600px) {
     .header1 {
         flex-direction: column;
+        overflow-x: hidden;
     }
 
     .header_title {

@@ -7,13 +7,7 @@ const projects = [
   {
     label: "Minimal Clock UI",
     url: "https://github.com/PratikKumarRout/neo-clock",
-    imgUrl: "/file.svg",
-    about: "A Flutter based fullscreen analog clock app with an aesthetics UI design. Functions as a wallpaper clock, combining minimal UI with smooth, modern aesthetics."
-  },
-  {
-    label: "Minimal Clock UI",
-    url: "https://github.com/PratikKumarRout/neo-clock",
-    imgUrl: "/file.svg",
+    imgUrl: "/projects/neo.jpg",
     about: "A Flutter based fullscreen analog clock app with an aesthetics UI design. Functions as a wallpaper clock, combining minimal UI with smooth, modern aesthetics."
   },
 ];
@@ -31,6 +25,7 @@ export default function Projects() {
                 height={300}
                 src={project.imgUrl}
                 alt="Project Image"
+                className={styles.project_image}
               />
               <div className={styles.project_details}>
                 <h3>{project.label}</h3>

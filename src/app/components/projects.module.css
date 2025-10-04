@@ -28,8 +28,8 @@
 
 .project_image {
     padding: 1rem;
-    background-color: var(--primary);
-    border-radius: 1rem;
+    object-fit: cover;
+    border-radius: 2rem;
 }
 
 .project_details {
@@ -84,12 +84,14 @@
 
     .project_chip {
         grid-template-columns: 1fr;
-        gap: 1rem;
+        gap: 0.5rem;
     }
 
     .project_image {
         margin: auto;
-        padding: 0.1rem;
+        padding: 0.5rem;
+        border-radius: 1rem;
+
     }
 
     .project_details p {
