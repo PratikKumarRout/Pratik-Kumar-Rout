@@ -66,6 +66,10 @@
 }
 
 @media (max-width: 600px) {
+    .proj_section {
+        scroll-margin-top: 7rem;
+    }
+
     .project_section {
         max-width: 100vw;
     }

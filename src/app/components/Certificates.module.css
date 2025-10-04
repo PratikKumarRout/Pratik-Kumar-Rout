@@ -52,5 +52,57 @@
     100% {
         transform: translateX(-100%);
     }
+}
+
+@keyframes certificateScrollVertical {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-50%);
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .certificates_section {
+        scroll-margin-top: 7rem;
+        overflow-y: hidden;
+    }
+
+    .certificates_container {
+        height: 23rem;
+        padding: 0.5rem;
+        place-items: center;
+    }
+
+    .certificate_chip {
+        width: 24.375rem;
+        height: 21.875rem;
+        place-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 0.5rem;
+        justify-content: start;
+    }
+
+    .certificate_chip p {
+        padding: 1rem;
+
+    } 
+
+    .certificate_image {
+        object-fit: cover;
+        width: 23.75rem;
+        height: 23.75rem;
+        border-radius: 1rem;
+    }
+
+    .certificate_scroll {
+        flex-direction: column;
+        animation: certificateScrollVertical 20s linear 1s infinite alternate-reverse;
+    }
 
 }

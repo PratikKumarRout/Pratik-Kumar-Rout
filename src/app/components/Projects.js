@@ -20,7 +20,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects">
+    <section id="projects" className={styles.proj_section}>
       <div className={styles.project_section}>
         <h2>Projects</h2>
         <div className={styles.projects_container}>

@@ -11,7 +11,7 @@ const certificates = [
 
 export default function Certificates() {
     return (
-        <section id="certificates">
+        <section id="certificates" className={styles.certificates_section}>
             <div className={styles.certificate_heading}>
                 <h2>Certificates</h2>
                 </div>
