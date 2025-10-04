@@ -26,11 +26,11 @@ export default function Hero() {
         <div>
           <div className={styles.hero_title}><h1>Hi, I&apos;m Pratik</h1></div>
           <div>
-            <p style={{ fontWeight: "bold", fontSize: "1.25rem", padding: "10px" }}>
+            <p className={styles.hero_para1}>
               - a software developer specializing in minimal, scalable web & mobile apps.<br />
               I develop apps using modular architecture & minimal UI.</p>
           </div>
-          <p style={{ fontWeight: "bold", fontSize: "1.37rem", padding: "10px" }}>
+          <p className={styles.hero_para2}>
             &quot;Design Smart. Build Fast.&quot;
           </p>
         </div>

@@ -25,6 +25,13 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
+.project_image {
+    width: 250px;
+    height: 300px;
+    background-color: var(--primary);
+    border-radius: 1rem;
+}
+
 .project_details {
     text-align: start;
     line-height: 1.5;
@@ -39,27 +46,21 @@
     font-weight: bold;
     font-size: medium;
     display: flex;
-    gap: 0.5rem;
 }
 
 .project_details a>p {
-    font-size: 1.1rem;
     transition: transform 200ms linear;
 }
-
-.project_details a>p:hover {
-    color: var(--accent);
-    transform: scale(1.1);
-}
-
 
 .project_details a::before {
     content: "🌐";
 }
 
-.project_image {
-    width: 250px;
-    height: 300px;
-    background-color: var(--primary);
-    border-radius: 1rem;
+.project_details a:visited {
+    color: var(--accent);
+}
+
+.project_details a>p:hover {
+    color: blue;
+    transform: translateY(-1.3px);
 }

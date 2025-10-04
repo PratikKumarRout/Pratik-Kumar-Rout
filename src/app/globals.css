@@ -3,7 +3,7 @@
   --foreground: #171717;
   --primary: #f7f8fa;
   --secondary: #e0e4ea;
-  --accent: #5c74ff;
+  --accent: #4d67f8;
   --shadowDark: #c7ced7;
   --shadowLight: #ffffff;
   --offset: 2px 2px 7px 1px var(--shadowDark), -2px -2px 7px 1px var(--shadowLight);
@@ -31,10 +31,6 @@ body {
   margin: 0;
 }
 
-.box {
-  background-color: var(--secondary);
-}
-
 section {
   padding: 2rem 2rem;
   border-bottom: 1px solid rgba(225, 231, 241, 0.5);
@@ -49,37 +45,13 @@ header {
   top: 0;
   background-color: var(--background);
   z-index: 1000;
+  overflow-x: auto;
+  transition: transform 0.3s;
 }
 
-.hero {
-  display: flex;
-  align-items: center;
-  min-height: 100vh;
-  /* full screen height */
-  width: 100%;
-  text-align: center;
-}
-
-/* Achievements row */
-.hero-achievements {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-  justify-content: start;
-  margin-top: 30px;
-}
-
-/* Skills row */
-
-
-/* Buttons row */
-
-
-
-.flex-row {
-  display: flex;
-  justify-content: space-between;
-  gap: 1.5rem;
+.headerHidden {
+  transform: translateY(-100%);
+  transition: transform 0.3s;
 }
 
 /* Projects grid base */
@@ -112,11 +84,6 @@ header {
 @media (max-width: 600px) {
   section {
     padding: 2rem 1rem;
-  }
-
-  header {
-    flex-direction: column;
-    gap: 0.7rem;
   }
 
   .hero {

@@ -10,10 +10,10 @@ const navLinks = [
 
 export default function Header() {
     return (
-        <header>
+        <header className={ styles.header1}>
             <div className={styles.header_title}>
                 <div className={styles.circle_avatar}>
-                    PKR
+                    <p>PKR</p>
                 </div>
                 <div className={styles.title}>
                     <h2>PRATIK KUMAR ROUT</h2>
