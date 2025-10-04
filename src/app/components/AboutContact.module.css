@@ -55,3 +55,30 @@
 .contact_list a:visited {
     color: var(--accent);
 }
+
+@media screen and (max-width: 600px) {
+    .contact_section {
+        scroll-margin-top: 7rem;
+    }
+
+    .aboutContact_container {
+        flex-direction: column;
+        padding: 2rem 1rem;
+    }
+
+    .about {
+        max-height: 18.50rem;
+    }
+
+    .para {
+        line-height: 1.3;
+    }
+
+    .list_link {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        text-wrap: nowrap;
+    }
+
+}
