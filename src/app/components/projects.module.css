@@ -65,6 +65,19 @@
     transform: translateY(-1.3px);
 }
 
+@media screen and (min-width: 601px) and (max-width: 1024) {
+    .projects_container {
+        gap: 1rem;
+    }
+    .project_chip {
+        grid-template-columns: 1fr;
+    }
+
+    .project_image {
+        width: 25rem;
+    }
+}   
+
 @media (max-width: 600px) {
     .proj_section {
         scroll-margin-top: 7rem;
