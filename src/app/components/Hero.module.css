@@ -167,8 +167,8 @@
 
     .hero_button_container {
         gap: 1rem;
-        margin-bottom: 0.5rem;
         padding: 0.4rem;
+        margin-top: 1.5rem;
     }
 
     .hero_button {

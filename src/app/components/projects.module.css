@@ -18,16 +18,16 @@
 
 .project_chip {
     background-color: var(--secondary);
-    padding: 1rem;
+    padding: 0.5rem;
     border-radius: 1rem;
     display: flex;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
 }
 
 .project_image {
-    width: 250px;
-    height: 300px;
+    padding: 1rem;
     background-color: var(--primary);
     border-radius: 1rem;
 }
@@ -63,4 +63,32 @@
 .project_details a>p:hover {
     color: blue;
     transform: translateY(-1.3px);
+}
+
+@media (max-width: 600px) {
+    .project_section {
+        max-width: 100vw;
+    }
+
+    .project_section h2 {
+        margin: 0.5rem;
+    }
+
+    .projects_container {
+        grid-template-columns: 1fr;
+    }
+
+    .project_chip {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .project_image {
+        margin: auto;
+        padding: 0.1rem;
+    }
+
+    .project_details p {
+        font-weight: 700;
+    }
 }
