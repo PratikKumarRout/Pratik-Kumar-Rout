@@ -3,6 +3,7 @@
     justify-content: space-around;
     min-height: 100vh;
     padding: 4rem;
+    max-width: 100vw;
 }
 
 .hero_title {
@@ -68,6 +69,13 @@
     font-size: medium;
 }
 
+.skill_head {
+    margin-top: 1rem;
+    place-self: center;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
 
 .hero_button_container {
     display: flex;
@@ -127,18 +135,22 @@
     .hero_section {
         max-width: 100vw;
         padding: 3rem;
+        flex-wrap: wrap-reverse;
+        align-items: start;
     }
 
     .hero_contents {
-        max-width: 30rem;
-        justify-content: space-around;
-        align-items: flex-start;
+        max-width: 35rem;
+        justify-content: space-between;
+    }
+
+    .hero_button_container {
+        margin-top: 4rem;
     }
 
     .hero_image {
-        width: 20rem;
-        height: 25rem;
-
+        width: 15rem;
+        height: 20rem;
     }
 
 }

@@ -56,6 +56,12 @@
     color: var(--accent);
 }
 
+@media screen and (min-width: 601px) and (max-width: 1024) {
+    .aboutContact_container {
+        padding: 2rem;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .contact_section {
         scroll-margin-top: 7rem;
