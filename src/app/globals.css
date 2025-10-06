@@ -44,14 +44,7 @@ header {
   align-items: center;
   position: sticky;
   top: 0;
-  background-color: var(--background);
   z-index: 1000;
-  transition: transform 0.3s;
-}
-
-.headerHidden {
-  transform: translateY(-100%);
-  transition: transform 0.3s;
 }
 
 /* Projects grid base */
