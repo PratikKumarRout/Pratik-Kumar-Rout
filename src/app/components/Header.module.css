@@ -78,8 +78,8 @@
     .header1 {
         flex-direction: column;
         overflow-x: hidden;
-        margin: 0.5rem;
         border-radius: 1rem;
+        margin: 0;
     }
 
     .header_title {

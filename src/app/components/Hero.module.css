@@ -162,15 +162,16 @@
         max-height: 100vh;
         align-items: center;
         overflow-x: hidden;
-        padding: 0.8rem;
+        padding: 0.2rem 0.5rem;
         justify-content: space-evenly;
-        scroll-margin-top: 2rem;
+        scroll-margin-top: 2.4rem;
     }
 
     .hero_image {
         width: 15rem;
         height: 15rem;
         border-radius: 50%;
+
     }
 
     .hero_title {
