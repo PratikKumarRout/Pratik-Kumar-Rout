@@ -1,7 +1,7 @@
 .header1 {
     display: flex;
     flex-direction: row;
-    background-color: beige;
+    background-color: #ffffff;
 }
 
 .header_title {
@@ -84,10 +84,11 @@
     }
 
     .nav_list {
-        padding: 0.4rem;
+        padding: 0.1rem;
+        gap: 0.5rem;
     }
 
     .nav_items {
-        padding: 0.99rem;
+        padding: 0.9rem;
     }
 }
