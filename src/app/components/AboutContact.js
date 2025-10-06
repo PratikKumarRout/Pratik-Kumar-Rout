@@ -4,7 +4,6 @@ const contacts = [
     { label: "Email", url: "mailto:routpratikiven@gmail.com", icon: "📧" },
     { label: "GitHub", url: "https://github.com/PratikKumarRout", icon: "💻" },
     { label: "LinkedIn", url: "https://www.linkedin.com/in/pratikkumarrout", icon: "🔗" },
-    { label: "Instagram", url: "https://www.instagram.com/pratikkumarrout09", icon: "📷" },
     { label: "My Resume", url: "/certificates/myresume.pdf", icon: "📄" },
 ];
 
@@ -21,7 +20,7 @@ export default function AboutContact() {
                     </p>
                 </div>
                 <div className={styles.contact}>
-                    <h2>Contact Me</h2>
+                    <h2>Contact</h2>
                     <p className={styles.para}>“Collaboration Starts with a Hello.” <br />
                         The best way to reach me is through email, but I&apos;m also available on other platforms.
                     </p>
