@@ -94,7 +94,7 @@
     font-weight: bold;
     text-decoration: none;
     color: var(--accent);
-    font-size: 1.37rem;
+    font-size: 1.2rem;
     transition: transform 200ms ease;
 }
 
@@ -205,11 +205,12 @@
     .hero_button_container {
         gap: 1rem;
         padding: 0.4rem;
-        margin-top: 1.5rem;
+        margin-top: 1rem;
     }
 
     .hero_button {
-        padding: 0.99rem;
+        padding: 0.8rem;
+        font-size: large;
     }
 
 }
