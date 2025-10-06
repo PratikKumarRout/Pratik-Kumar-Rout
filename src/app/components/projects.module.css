@@ -20,10 +20,10 @@
     background-color: var(--secondary);
     padding: 0.5rem;
     border-radius: 1rem;
-    display: flex;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
+    align-items: center;
 }
 
 .project_image {
@@ -41,27 +41,31 @@
     margin-bottom: 1rem;
 }
 
-.project_details a {
-    text-decoration: none;
-    font-weight: bold;
-    font-size: medium;
+.project_button {
+    background-color: var(--accent);
+    margin: 1rem;
+    border-radius: 0.5rem;
+    align-items: center;
     display: flex;
+    color: #ffffff;
+    text-decoration: none;
+    justify-content: center;
 }
 
-.project_details a>p {
+.project_button p {
+    margin: 0.5rem;
+    font-size: large;
+    font-weight: 700;
+}
+
+
+
+.project_button p {
     transition: transform 200ms linear;
 }
 
-.project_details a::before {
-    content: "🌐";
-}
 
-.project_details a:visited {
-    color: var(--accent);
-}
-
-.project_details a>p:hover {
-    color: blue;
+.project_button p:hover {
     transform: translateY(-1.3px);
 }
 
@@ -69,6 +73,7 @@
     .projects_container {
         gap: 1rem;
     }
+
     .project_chip {
         grid-template-columns: 1fr;
     }
@@ -76,7 +81,7 @@
     .project_image {
         width: 25rem;
     }
-}   
+}
 
 @media (max-width: 600px) {
     .proj_section {
@@ -109,6 +114,25 @@
     }
 
     .project_details p {
+        font-weight: 600;
+        font-size: medium;
+        line-height: 1.4;
+    }
+
+    .project_button {
+        background-color: var(--accent);
+        margin: 1rem;
+        border-radius: 0.5rem;
+        align-items: center;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+    }
+
+    .project_button p {
+        margin: 0.5rem;
+        font-size: large;
         font-weight: 700;
     }
+
 }
