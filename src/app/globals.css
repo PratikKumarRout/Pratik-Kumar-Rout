@@ -33,7 +33,7 @@ body {
 }
 
 section {
-  padding: 2rem 2rem;
+  padding: 2rem;
   border-bottom: 1px solid rgba(225, 231, 241, 0.5);
   scroll-margin-top: 3rem;
 }
