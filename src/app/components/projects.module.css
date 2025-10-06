@@ -98,12 +98,13 @@
     .project_chip {
         grid-template-columns: 1fr;
         gap: 0.5rem;
+        border-radius: 1.2rem;
     }
 
     .project_image {
         margin: auto;
         padding: 0.5rem;
-        border-radius: 1rem;
+        border-radius: 1.5rem;
 
     }
 
