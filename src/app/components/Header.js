@@ -16,7 +16,7 @@ export default function Header() {
                     <p>PKR</p>
                 </div>
                 <div className={styles.title}>
-                    <h2>PRATIK KUMAR ROUT</h2>
+                    <h3>PRATIK KUMAR ROUT</h3>
                 </div>
             </div>
             <nav>
