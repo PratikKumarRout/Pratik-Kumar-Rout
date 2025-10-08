@@ -11,10 +11,14 @@
   --btnY: -1.3px;
 }
 
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
 html,
 body {
   max-width: 100vw;
-  font-size: 16px;
   scroll-behavior: smooth;
 }
 
