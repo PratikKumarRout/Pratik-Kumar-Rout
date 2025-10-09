@@ -13,7 +13,7 @@ const projects = [
   {
     label: "AI Art Store",
     url: "https://github.com/PratikKumarRout/ai-art-store",
-    imgUrl: "/projects/neo.jpg",
+    imgUrl: "/projects/aiart.png",
     about: "ai-art-store is a sleek, responsive gallery of AI-generated art—built with Next.js, styled for elegance, and deployed via Vercel. It showcases prompt-driven creativity with clean design and modular architecture."
   },
 ];
