@@ -23,8 +23,8 @@
 }
 
 .para {
-    font-weight: bold;
-    line-height: 1.5;
+    font-weight: 500;
+    line-height: 1.3;
     margin: 0 auto;
     text-align: left;
     font-size: 1.1rem;
@@ -64,16 +64,13 @@
 
 @media screen and (max-width: 600px) {
     .contact_section {
-        scroll-margin-top: 7rem;
+        scroll-margin-top: 5rem;
     }
 
     .aboutContact_container {
         flex-direction: column;
-        padding: 2rem 1rem;
-    }
-
-    .para {
-        line-height: 1.4;
+        padding: 1.5rem 1rem;
+        gap: 2rem;
     }
 
     .list_link {
