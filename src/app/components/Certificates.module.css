@@ -38,7 +38,6 @@
 }
 
 .certificate_chip:hover {
-    transform: translateY(var(--btnY));
     border: 1px solid var(--accent);
 }
 
@@ -89,7 +88,7 @@
     }
 
     .certificate_chip p {
-        padding: 1rem;
+        padding: 0.5rem;
 
     }
 
@@ -97,11 +96,12 @@
         object-fit: cover;
         width: 23.75rem;
         height: 23.75rem;
+        padding: 1rem;
         border-radius: 1rem;
     }
 
     .certificate_scroll {
-        animation: certificateScrollPhone 15s linear 1s infinite alternate;
+        animation: certificateScrollPhone 10s linear 1s infinite alternate;
     }
 
 }
