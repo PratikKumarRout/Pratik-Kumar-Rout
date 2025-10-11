@@ -4,7 +4,7 @@ import styles from "./Header.module.css"
 const navLinks = [
     { label: "Home", anchor: "#hero" },
     { label: "Projects", anchor: "#projects" },
-    { label: "Certificates", anchor: "#certificates" },
+    { label: "Skills", anchor: "#skills" },
     { label: "Contact", anchor: "#contact" },
 ];
 
