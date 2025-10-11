@@ -1,6 +1,32 @@
 .skill_section {
     max-width: 75rem;
-    background-color: var(--secondary);
-    border-radius: 1rem;
     margin: auto;
+}
+
+.skill_section h2{
+    text-align: center;
+    text-decoration: underline;
+    margin: 1rem;
+}
+
+.skills_container {
+    background-color: var(--secondary);
+    text-align: left;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+    text-wrap: nowrap;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 600px) {
+    .skills_container {
+        display: flex;
+        flex-direction: column;
+        text-wrap: wrap;
+    }
+    
 }

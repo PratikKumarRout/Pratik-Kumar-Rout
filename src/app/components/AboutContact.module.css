@@ -43,6 +43,10 @@
     gap: 0.5rem;
 }
 
+.list_link {
+    margin-top: 1rem;
+}
+
 .contact_list p {
     transition: transform 200ms linear;
 }
