@@ -1,0 +1,6 @@
+.skill_section {
+    max-width: 75rem;
+    background-color: var(--secondary);
+    border-radius: 1rem;
+    margin: auto;
+}
