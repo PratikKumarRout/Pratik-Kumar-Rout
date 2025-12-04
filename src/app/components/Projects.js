@@ -7,7 +7,7 @@ const projects = [
 
   {
     label: "Krishna-Katha",
-    url: "https://github.com/PratikKumarRout/krishna-katha",
+    url: "https://krishna-katha.vercel.app",
     imgUrl: "/projects/krishna-katha.jpg",
     about: "A devotional application built with React, CSS, Firebase Firestore, presenting chapter‑wise Bhagavad Gita verses in authentic Odia and Sanskrit script. It features a minimal, responsive neomorphic UI design, blending cultural authenticity with modern aesthetics."
   },
