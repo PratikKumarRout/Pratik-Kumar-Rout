@@ -4,7 +4,6 @@ import styles from "./projects.module.css";
 import Image from "next/image";
 
 const projects = [
-
   {
     label: "Krishna-Katha",
     url: "https://krishna-katha.vercel.app",
